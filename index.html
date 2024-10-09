@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paga por Ver Anuncios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Gana Dinero Mirando Anuncios</h1>
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-white" href="#" id="registerLink">Registro</a>
+            <a class="nav-link text-white" href="#" id="loginLink">Iniciar Sesión</a>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section id="adsSection">
+            <h2>Anuncios Disponibles</h2>
+            <div id="adsList" class="row"></div>
+        </section>
+        <section id="userSection" class="d-none">
+            <h2>Mi Cuenta</h2>
+            <p id="balance" class="font-weight-bold"></p>
+            <button class="btn btn-danger" id="logoutBtn">Cerrar Sesión</button>
+        </section>
+    </main>
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 TuSitioWeb. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
